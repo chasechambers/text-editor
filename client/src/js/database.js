@@ -58,4 +58,7 @@ export const getDb = async () => {
   return result;
 };
 
-initdb();
+(async () => {
+  const db = await initdb();
+  console.log('Database initialized:', db);
+})();
