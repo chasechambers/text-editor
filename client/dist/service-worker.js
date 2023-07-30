@@ -82,7 +82,7 @@ define(['./workbox-03567021'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "editor.bundle.js",
-    "revision": "ba7e2abdca1beea8477bd61d96b87753"
+    "revision": "de7fd643a3b14fc2ad4e300d5f6a0fb4"
   }, {
     "url": "index.html",
     "revision": "7a7a5690169559d26e708849ea43784c"
@@ -91,10 +91,10 @@ define(['./workbox-03567021'], (function (workbox) { 'use strict';
     "revision": "c03de1bc5ab5a248ea239456e4b7d0a9"
   }, {
     "url": "main.bundle.js",
-    "revision": "02829b8f72cb0801d8c26a8b43e02c3d"
+    "revision": "0d2fa75e420115006d64996ea7417589"
   }, {
     "url": "src-sw.js",
-    "revision": "f9852a732fc4dd162cc83ba83deb6c2e"
+    "revision": "8b558107e91b186d6b443522d87e0d85"
   }], {});
 
 }));
